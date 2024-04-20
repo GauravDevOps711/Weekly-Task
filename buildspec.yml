@@ -1,0 +1,12 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      docker: 18
+  build:
+    commands:
+      - docker build -t weekly-task-app:${CODEBUILD_RESOLVED_SOURCE_VERSION} .
+      - docker tag weekly-task-app:${CODEBUILD_RESOLVED_SOURCE_VERSION} gaurav4u/weekly-task-app:${CODEBUILD_RESOLVED_SOURCE_VERSION}
+  post_build:
+    commands:
+      - docker push gaurav4u/weekly-task-app:${CODEBUILD_RESOLVED_SOURCE_VERSION}

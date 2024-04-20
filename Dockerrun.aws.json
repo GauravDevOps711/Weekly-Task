@@ -1,0 +1,11 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "containerDefinitions": [
+    {
+      "name": "task-app",
+      "image": "gaurav4u/guvi-task-app:v1",
+      "essential": true,
+      "memory": 128
+    }
+  ]
+}
