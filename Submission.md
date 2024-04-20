@@ -54,13 +54,28 @@
 17. Goto to CodeBuild--> Create Project--> Project_Name--> Source_provider--> Repository-->Branch--> Next. ![17](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/133a0667-2576-4bcd-9e2d-43b902330272)
 
 
-18. Now click on Start Build--> build is successful. ![18](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/2869b285-1049-4c57-9475-e0bfd5b0076f)
+18. Now click on Start Build build is successful. ![18](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/c314dc04-74a4-4553-8e02-a5077782a0ff)
+![18 1](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/7d10e314-9cf5-42e7-bc36-468d9c2d8fe3)
+
+ 
+19. Goto Elastic Beanstalk Create ApplicationNameCreate. ![19](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/928c1adb-0ce7-4a87-8496-a8541f6e73db)
+![19 1](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/ac3c4950-b3f4-4943-82d0-dd4286e986f9)
+![19 2](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/a0bf03b0-a33a-45ee-a591-ebe43e0cc748)
 
 
-19. Goto Code Pipeline--> Create Pipeline--> Name-->Next-->Source_provider--> ![19](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/dbaa7804-937c-4f77-8639-e03678fcbaa9)
-![19 1](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/399a5fc2-41ba-461d-9dfd-87e336b8db8a)
-![19 2](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/dc15127a-3b5a-4c5e-8fd6-c4e771e17af5)
+20. Click on created application Filling all details ReviewSubmit ![20](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/4afacb62-204f-4e12-9d30-1e6b8cc2bfaf)
 
 
-20. ls -l--> docker build -t guvi-task-app .  
-docker images --> docker push gaurav4u/guvi-task-app:v1 
+21. Beanstalk environment createdsuccessfully launched beanstalk environment ![21](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/97d83caa-52d4-4a4f-95c9-ace7db2715c1)
+![21 1](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/aae573b5-bd22-47af-a3b1-3f14b6f997c3)
+ 
+
+22. Copy the public_ip of “Guvi-beanstalk-env-env” and paste it in browser. ![22](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/565348c5-e2a7-42bd-99e4-93ce9be9d654)
+
+
+23. Goto Code Pipeline Create Pipeline Filled all details Review Submit ![23](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/78694ac4-f64f-4495-a83e-931a3efe4eb2)
+
+
+24. Pipeline started Build  Deploy. ![24](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/3ef40d14-4ab6-41ae-b867-c48149d12514)
+![24 1](https://github.com/GauravDevOps711/Weekly-Task/assets/135973657/aeb0c2d1-cafc-4c87-99a0-b5666968eb0a)
+
